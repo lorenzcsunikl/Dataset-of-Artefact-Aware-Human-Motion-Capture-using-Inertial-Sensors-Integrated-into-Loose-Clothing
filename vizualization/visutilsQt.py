@@ -197,6 +197,7 @@ class SkeletonViewer():
       self.nTime = self.animationDatas[0].nTime
       self.qttimer.timeout.connect(self.update)
       self.qttimer.start(self.qttimer_sampling_time)
+      self.app.exec_()
 
     def updateAnimationData(self,list_aData):
       self.qttimer.stop()
