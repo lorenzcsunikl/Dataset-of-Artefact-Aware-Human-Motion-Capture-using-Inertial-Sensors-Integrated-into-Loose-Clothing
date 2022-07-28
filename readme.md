@@ -20,7 +20,7 @@ This repo contains some application to vizualize the Dataset. In app you either 
 Additionally we included an application to extract the raw measurements from h5 files.
 
 Packages requiered:  
-pip install h5py scipy pyqtgraph==0.10.0 PyQt5 matplotlib pyopengl
+pip install h5py scipy pyqtgraph PyQt5 matplotlib pyopengl
       
  [Michael Lorenz](https://agw.cs.uni-kl.de/en/team), [Bertram Taetz](https://av.dfki.de/members/taetz/), [Gabriele Bleser](https://av.dfki.de/members/bleser/)  
 
