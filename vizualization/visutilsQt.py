@@ -257,7 +257,7 @@ class DrawSkeleton():
 
     def update(self, aData, t):
         for n in range(len(self.segs)):
-            self.segs[n].setTransform(aData.seg[n].T[:,t])
+            self.segs[n].setTransform( QtGui.QMatrix4x4(aData.seg[n].T[:,t]) )
 
     def getSegments(self):
         return self.segs
